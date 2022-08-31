@@ -16,7 +16,7 @@ h1{
 .titu{
     width: 100%;
     height: 86vh;
-    background-image: url(../img/da2d2ku-11fd7bb0-6555-48f0-bbc2-2b5a63179d5b.jpg);
+    background-image: url(../img/Remp.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -35,8 +35,8 @@ h1{
 /*contenido*/
 .parr{
     background-color: rgb(255, 255, 255);
-    /*background: linear-gradient(to top, rgba(248, 248, 248, 0),rgba(255, 255, 255, 0.87),rgba(255, 255, 255, 0));
-    background: linear-gradient(to bottom, rgba(248, 248, 248, 0),rgba(255, 255, 255, 0.87),rgba(255, 255, 255, 0));*/
+    background: linear-gradient(to top, rgba(248, 248, 248, 0),rgba(255, 255, 255, 0.87),rgba(255, 255, 255, 0));
+    background: linear-gradient(to bottom, rgba(248, 248, 248, 0),rgba(255, 255, 255, 0.87),rgba(255, 255, 255, 0));
     width: 100%;
     height: 400px;
     margin-top: 55px;
@@ -108,4 +108,21 @@ h1{
     margin-bottom: 20px;
     width: 100px;
     height: 100px;}
+/*menu*/
+/*.container-fluid{
+    /*height: 100vh;}*/
 
+.subtitu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+}
+.img-rem{
+    display: flex;
+    padding-left: 0px;
+}
+.subtitu2{
+    display: flex;
+    justify-content: center;
+}
