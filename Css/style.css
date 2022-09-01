@@ -111,7 +111,7 @@ h1{
     margin-bottom: 20px;
     width: 100px;
     height: 100px;}
-/*menu*/
+/*section 1*/
 .subtitu{
     display: flex;
     justify-content: center;
@@ -125,7 +125,6 @@ h1{
 .subtitu2{
     display: flex;
     flex-direction: column;
-    justify-items: center;
     align-items: center;
 }
 .li1{
@@ -140,4 +139,17 @@ h1{
 .ulg img{
     padding-top: 50px;
     padding-right:30px;
+}
+/*section 2*/
+.section2{
+    padding-top: 50px;
+}
+.img-rem2{
+    display: flex;
+    padding-right: 0px;
+}
+.subtitu3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
