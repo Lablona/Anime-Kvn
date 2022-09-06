@@ -6,20 +6,17 @@
         src: url(../font/Montserrat_Alternates/MontserratAlternates-MediumItalic.ttf);}
 ul, li{
     list-style: none;
-}        
+}       
 h1{
-    font-size: 85px;
+    font-size: 5.2rem;
     font-family: Montserrat Alternates;
     color: #3460BF;
-    /*background-image: url(../img/56eaab911cca0c5881e9a1f1228787c8.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;*/
     /*div*/
 }
 .titu{
     width: 100%;
     height: 86vh;
-    background-image: url(../img/Remp.jpg);
+    background-image: url(../img/dbkhe3a-1386c8c1-6649-4bc0-9047-4bee981fc6b5.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -31,9 +28,82 @@ h1{
     width: 200px;
     height: 200px;
 }
-.h{
+.Kvn{
     display: flex;
     align-items: center;
+    padding-top: 70px;
+}
+.delmundo{
+    font-size: 2.6rem;
+    text-align: center;
+}
+.subtitu0{
+    width: 550px;
+}
+.boton1{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.boton2{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    /*background-color: aliceblue;*/
+    width: 9rem;
+    height: 5rem;
+}
+.boton2:hover{
+    color: #ffffff;
+}
+.enlace0{
+    width: 9rem;
+    height: 5rem;
+    background-color: #3460bf;
+    margin-top: 1rem;
+    transition: all 0.4s 0.2s;
+}
+.enlace0:hover{
+    transform: scale(1.09);
+    color: white;
+    font-size: larger;
+    opacity: 0.8;
+}
+.enlace1{
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    width: 6rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #ffffff;
+}
+.enlace2{
+    position: absolute;
+    left: 9rem;
+    top: 2rem;
+    width: 7rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #ffffff;
+}
+.enlace3{
+    position: absolute;
+    left: 17rem;
+    top: 2rem;
+    width: 6rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #ffffff;
 }
 /*contenido*/
 .parr{
@@ -42,7 +112,7 @@ h1{
     background: linear-gradient(to bottom, rgba(248, 248, 248, 0),rgba(255, 255, 255, 0.87),rgba(255, 255, 255, 0));
     width: 100%;
     height: 400px;
-    margin-top: 55px;
+    margin-top: 10px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -170,9 +240,6 @@ h1{
 
 .section3{
     padding-top: 50px;
-}
-.gris{
-    background-color: rgb(155, 155, 155);
 }
 .subtitu4{
     display: flex;
