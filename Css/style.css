@@ -121,6 +121,10 @@ h1{
 .img-rem{
     display: flex;
     padding-left: 0px;
+    background-image: url(../img/RREm.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .subtitu2{
     display: flex;
@@ -147,9 +151,59 @@ h1{
 .img-rem2{
     display: flex;
     padding-right: 0px;
+    background-image: url(../img/remn.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .subtitu3{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.li2{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+}
+/*Cartas*/
+
+.section3{
+    padding-top: 50px;
+}
+.gris{
+    background-color: rgb(155, 155, 155);
+}
+.subtitu4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.carta1{
+    margin-right: 50px;
+    margin-left: 50px;
+    align-items: center;
+}
+.cartatitu{
+    text-align: center;
+}
+.subtitu5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.section3-2{
+    padding-bottom: 50px;
+}
+.mineral{
+    margin-top: 20px;
+   width: 96px;
+   height: 96px;
+}
+.beneficios{
+    display: flex;
+    flex-direction: column;
 }
