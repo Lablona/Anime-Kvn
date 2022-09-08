@@ -1,7 +1,7 @@
 //variables//
-$color-titulos: #3460BF;
-$font-size: 85px; 
-
+@import "color";
+@import "font";
+$vista: mobile;
 
 ul {
     list-style: none;
@@ -41,3 +41,21 @@ ul {
         color: rgba(125, 123, 218, 0.897)
     }
 }
+/*body{
+    @if $vista == desktop {
+        @media only screen and (min-width: 1024px){
+            h1{font-size:$font-size2;
+            color: green}
+        } 
+        }
+        @else if $vista == mobile {
+            @media only screen and (max-width: 600px){
+                h1{font-size:$font-size;
+                color: $color-titulos2}
+            }
+        }
+        @else {
+            h1{font-size: 300px;
+            color: blueviolet;}
+        }
+    }*/
