@@ -1,15 +1,33 @@
 *{padding: 0;
     margin: 0;
     box-sizing: border-box;}
+    @font-face {
+        font-family: Montserrat Alternates;
+        src: url(../font/Montserrat_Alternates/MontserratAlternates-MediumItalic.ttf);}
 .cuerpo{
-    background-color: rgba(214, 214, 214, 0.815);
+   /* background-color: rgba(214, 214, 214, 0.815);*/
+}
+.Kvn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 424px;
+    margin-top: 2.5rem;
+}
+.icon{
+    font-size: 3rem;
+    font-family: Montserrat Alternates;
+    color: #3460BF;
+}
+.Kvn img{
+    height: 130px;
+    width: 130px;
 }
 h1{
     font-size: 3.5rem;
 }
 .titu{
     text-align: center;
-    padding-top: 2rem;
     padding-bottom: 2rem;
 } 
 
@@ -19,11 +37,58 @@ h1{
     color:rgb(0, 0, 0);
 }
 .enlace1{
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
     width: 6rem;
     height: 3rem;
-    margin-top: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 4px solid #000000;
+}
+.registro{
+    width: 630px;
+    display: flex;
+    flex-direction: column;
+}
+.cuadro2{
+    margin-top: 1rem;
+}
+.check{
+    padding-top: 0.8rem;
+}
+.boton2{
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    /*background-color: aliceblue;*/
+    width: 604px;
+    height: 4rem;
+}
+.boton2:hover{
+    color: #ffffff;
+}
+.acceso{
+    width: 604px;
+    height: 4rem;
+    background-color: #3460bf;
+    margin-top: 1rem;
+    transition: all 0.4s 0.2s;
+    border-radius: 10px;
+}
+.acceso:hover{
+    transform: scale(1.09);
+    color: white;
+    font-size: larger;
+    opacity: 0.8;
+}
+.terminos{
+    padding-top: 0.5rem;
+    text-align: center;
+    color: rgba(145, 145, 145, 0.767);
 }
