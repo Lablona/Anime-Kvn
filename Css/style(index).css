@@ -53,25 +53,35 @@ h1{
     height: 5rem;
 }
 .boton0:hover{
-    color: #ffffff;
+    color: #3460bf;
 }
 .enlace0{
     width: 9rem;
     height: 5rem;
     background-color: #3460bf;
     margin-top: 1rem;
-    transition: all 0.4s 0.2s;
+    transition: all 0.2s 0.1s;
 }
 .enlace0:hover{
     transform: scale(1.09);
-    color: white;
+    color: #3460bf;
+    background-color: #ffffff;
     font-size: larger;
     opacity: 0.8;
 }
 .boton1{
     text-decoration: none;
-    color:rgb(255, 255, 255);
-    
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    width: 8rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.boton1:hover{
+    color: #3460BF;
 }
 
 .enlace1{
@@ -83,29 +93,53 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 4px solid #ffffff;
+    background-color: #3460BF;
+    transition: all 0.2s 0.1s;
+}
+.enlace1:hover{
+    transform: scale(1.09);
+    color:#3460BF;
+    font-size: larger;
+    opacity: 0.8;
+    background-color: #ffffff;
 }
 .enlace2{
     position: absolute;
     left: 9rem;
     top: 2rem;
-    width: 7rem;
+    width: 8rem;
     height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 4px solid #ffffff;
+    background-color: #3460BF;
+    transition: all 0.2s 0.1s;
+}
+.enlace2:hover{
+    transform: scale(1.09);
+    color:#3460BF;
+    font-size: larger;
+    opacity: 0.8;
+    background-color: #ffffff;
 }
 .enlace3{
     position: absolute;
-    left: 17rem;
+    left: 18rem;
     top: 2rem;
     width: 6rem;
     height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 4px solid #ffffff;
+    background-color: #3460BF;
+    transition: all 0.2s 0.1s;
+}
+.enlace3:hover{
+    transform: scale(1.09);
+    color:#3460BF;
+    font-size: larger;
+    opacity: 0.8;
+    background-color: #ffffff;
 }
 /*contenido*/
 .parr{
