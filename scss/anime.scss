@@ -1,0 +1,40 @@
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+    
+@import "../scss/color";
+@import "../scss/font";
+
+.cuerpo{
+    background-color: rgba(214, 214, 214, 0.815);
+
+    .enlace1{
+        width: 6rem;
+        height: 3rem;
+        margin-top: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 4px solid #000000;
+
+        .boton1{
+            text-decoration: none;
+            color:rgb(0, 0, 0);
+        }
+    }
+
+    .titu{
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        h1{
+            font-size: 3.5rem;
+            color: $mainColor;
+            font-family: $mainFont;
+        }
+        
+    }
+}
+
+

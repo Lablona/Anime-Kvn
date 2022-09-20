@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: Montserrat Alternates;
+  src: url(../font/Montserrat_Alternates/MontserratAlternates-MediumItalic.ttf); }
+
+.cuerpo {
+  background-color: rgba(214, 214, 214, 0.815); }
+  .cuerpo .enlace1 {
+    width: 6rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #000000; }
+    .cuerpo .enlace1 .boton1 {
+      text-decoration: none;
+      color: black; }
+  .cuerpo .titu {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem; }
+  .cuerpo h1 {
+    font-size: 3.5rem;
+    color: #3460BF;
+    font-family: Montserrat Alternates; }
