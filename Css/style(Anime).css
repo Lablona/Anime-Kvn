@@ -1,6 +1,31 @@
 *{padding: 0;
     margin: 0;
     box-sizing: border-box;}
+
+.nave{
+position:sticky;
+top: 0px;
+z-index: 1;
+width: 100%;
+opacity: 0.9;
+}
+.contenido-nave{
+    width: 70%;
+}
+.logo{
+    height: 4rem;
+    width: 4rem;
+}
+.boton{
+    border-radius: none;
+    color: #3460BF;
+    border: solid 1px #3460BF;
+    transition: all 0.2s 0.1s;
+}
+.boton:hover{
+    background-color: #3460BF;
+    border: solid 1px #3460BF;
+}
 .cuerpo{
     background-color: rgba(214, 214, 214, 0.815);
 }
@@ -12,16 +37,40 @@ h1{
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-.boton1{
-    text-decoration: none;
-    color:rgb(0, 0, 0);
+/*.carou{
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+}*/
+/*catalogo*/
+.anime{
+    margin: 20px 0px 20px 0px;
 }
-.enlace1{
-    width: 6rem;
-    height: 3rem;
-    margin-top: 0.5rem;
+.carta{
+    border-style: none;
+    transition: all 0.2s 0.1s;
+}
+.carta:hover{
+    transform: scale(1.19);
+}
+.carta-s{
+    /*background-color: aquamarine;*/
+    padding: 0px;
+    transition: all 0.2s 0.1s;
+}
+.carta-s:hover{
+    background-color: rgba(143, 143, 143, 0.658);
+}
+.carta-tx{
+    /*background-color: aqua;*/
+    opacity: 0;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    border: 4px solid #000000;
+    align-items:center ;
+}
+.carta-tx:hover{
+    transform: scale(1.22);
+    opacity: 1;
+    color: rgb(255, 255, 255);
 }
