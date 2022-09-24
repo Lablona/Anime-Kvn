@@ -305,7 +305,6 @@ ul, li{
     align-items: center;
 }
 /*Cartas*/
-
 .section3{
     padding-top: 50px;
 }
@@ -315,14 +314,49 @@ ul, li{
     align-items: center;
     padding-bottom: 30px;
 }
+.grupo{
+    display: flex;
+    justify-content: center;
+    /*background-color: aqua;*/
+}
 .carta1{
-    border: solid 10px cornflowerblue;
-    margin-right: 50px;
-    margin-left: 50px;
+    border: solid 8px #3460BF;
+    border-radius: 2px;
     align-items: center;
 }
 .cartatitu{
     text-align: center;
+}
+.mineral{
+    margin-top: 20px;
+   width: 96px;
+   height: 96px;
+}
+/*.contenido{
+    background-color: aqua;
+}*/
+.beneficios{
+    padding: 8px;
+    font-size:medium;
+}
+.noBenefecios{
+    padding: 8px;
+    font-size:medium;
+    text-decoration:line-through;
+    color: #8a8a8a94;
+}
+.boton-pay{
+    font-size: 1.6rem;
+    margin-bottom: 1.7rem;
+    width: 90%;
+    text-align: center;
+    color:#3460BF;
+    background-color: #ffffff;
+    border-radius: 2px;
+    border: solid 2px #3460BF ;
+}
+.boton-pay:hover{
+    background-color: #3460BF;
 }
 .subtitu5{
     display: flex;
@@ -333,20 +367,6 @@ ul, li{
 }
 .section3-2{
     padding-bottom: 50px;
-}
-.mineral{
-    margin-top: 20px;
-   width: 96px;
-   height: 96px;
-}
-.beneficios{
-    padding: 10px;
-    font-size:small;
-}
-.noBenefecios{
-    text-decoration:line-through;
-    color: #8a8a8a94;
-    padding: 10px;
 }
 /*footer*/
 .pie{
