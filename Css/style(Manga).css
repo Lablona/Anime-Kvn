@@ -1,7 +1,32 @@
 *{padding: 0;
     margin: 0;
     box-sizing: border-box;}
-
+/*barra de navegacion*/
+.nave{
+position:sticky;
+top: 0px;
+z-index: 1;
+width: 100%;
+opacity: 0.9;
+}
+.contenido-nave{
+    width: 70%;
+}
+.logo{
+    height: 4rem;
+    width: 4rem;
+}
+.boton{
+    border-radius: none;
+    color: #3460BF;
+    border: solid 1px #3460BF;
+    transition: all 0.2s 0.1s;
+}
+.boton:hover{
+    background-color: #3460BF;
+    border: solid 1px #3460BF;
+}
+/*contenido*/
 .cuerpo{
     background-color: rgba(214, 214, 214, 0.815);
 }
@@ -13,19 +38,22 @@ h1{
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-
-.boton1{
-    text-decoration: none;
-    color:rgb(0, 0, 0);
- }
-.enlace1{
-    width: 6rem;
-    height: 3rem;
-    margin-top: 0.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 4px solid #000000;
+.cuerpo{
+    background-color: rgba(214, 214, 214, 0.815);
 }
-
-
+h1{
+    font-size: 3.5rem;
+}
+.titu{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+/*libros*/
+.manga{
+    transition: all 0.3s 0.1s;
+}
+.manga:hover{
+    opacity: 0.8;
+    transform: translate(0px, -12px);
+}

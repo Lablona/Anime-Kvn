@@ -1,7 +1,10 @@
 *{padding: 0;
     margin: 0;
     box-sizing: border-box;}
-
+    @font-face {
+        font-family: Montserrat Alternates;
+        src: url(../font/Montserrat_Alternates/MontserratAlternates-MediumItalic.ttf);}
+/*barra de navegacion*/
 .nave{
 position:sticky;
 top: 0px;
@@ -26,11 +29,18 @@ opacity: 0.9;
     background-color: #3460BF;
     border: solid 1px #3460BF;
 }
+/*Titulo*/
+body{
+    background-color: #3460BF;
+}
 .cuerpo{
-    background-color: rgba(214, 214, 214, 0.815);
+    background-color: #ffffffa1;
+    padding-bottom: 0.5rem;
 }
 h1{
     font-size: 3.5rem;
+    color:#264588ee;
+    font-family: Montserrat Alternates;
 }
 .titu{
     text-align: center;
@@ -43,6 +53,10 @@ h1{
     background-color: aqua;
 }*/
 /*catalogo*/
+h2{
+    font-family: Montserrat Alternates;
+    color: #264588ee;
+}
 .anime{
     margin: 20px 0px 20px 0px;
 }
@@ -65,12 +79,69 @@ h1{
     /*background-color: aqua;*/
     opacity: 0;
     height: 100%;
+    font-size: medium;
     display: flex;
     justify-content: center;
-    align-items:center ;
+    align-items:center;
+    text-align: center;
 }
 .carta-tx:hover{
     transform: scale(1.22);
     opacity: 1;
     color: rgb(255, 255, 255);
+}
+/*Footer*/
+.pie{
+    height: 9rem;
+    width: 100%;
+    background-color:#264588ee;
+}
+.pietitu{
+    text-align: center;
+}
+/*boton*/
+.r-social{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 4.5rem;
+    /*background-color: aliceblue;*/
+}
+.r-i{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.8rem;
+    width: 5rem;
+    height: 4rem;
+}
+.r-i img{
+    height: 2rem;
+    width: 2.5rem;
+}
+.r-i p{
+    color: #ffffff;
+}
+.politicas{
+    height: 4.5rem;
+    /*background-color: aquamarine;*/
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+}
+.e-p{
+    width: 150px;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    text-decoration: none;
+    color: white
+}
+.e-p:hover{
+    color: #ffffff;
+    text-decoration:underline
 }

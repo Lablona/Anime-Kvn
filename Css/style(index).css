@@ -1,9 +1,16 @@
 *{padding: 0;
     margin: 0;
     box-sizing: border-box;}
-      @font-face {
-        font-family: Montserrat Alternates;
-        src: url(../font/Montserrat_Alternates/MontserratAlternates-MediumItalic.ttf);}
+@font-face {
+    font-family: Montserrat Alternates;
+    src: url(../font/Montserrat_Alternates/MontserratAlternates-MediumItalic.ttf);}
+@font-face{
+    font-family: Roboto Condensed;
+    src:url(../font/RobotoCondensed-Regular.ttf)}
+
+/*////////
+principal
+////////*/
 ul, li{
     list-style: none;
 }       
@@ -11,7 +18,6 @@ ul, li{
     font-size: 5.2rem;
     font-family: Montserrat Alternates;
     color: #3460BF;
-    /*div*/
 }
 .titu{
     width: 100%;
@@ -140,7 +146,9 @@ ul, li{
     opacity: 0.8;
     background-color: #ffffff;
 }
-/*contenido*/
+/*//////////
+contenido
+/////////*/
 .parr{
     /*background-color:#ffffff;
     /*background: linear-gradient(to top, rgba(248, 248, 248, 0),rgba(255, 255, 255, 0.87),rgba(255, 255, 255, 0));
@@ -163,7 +171,7 @@ ul, li{
     align-items: center;
     text-align: center;
     font-size: 18px;
-    font-family: Lato, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .p0-1 img{
     margin-bottom: 20px;
@@ -181,7 +189,7 @@ ul, li{
     align-items: center;
     text-align: center;
     font-size: 18px;
-    font-family: Lato, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .p0-2 img{
     margin-bottom: 20px;
@@ -199,7 +207,7 @@ ul, li{
     align-items: center;
     text-align: center;
     font-size: 18px;
-    font-family: Lato, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .p0-3 img{
     margin-bottom: 20px;
@@ -217,7 +225,7 @@ ul, li{
     align-items: center;
     text-align: center;
     font-size: 18px;
-    font-family: Lato, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .p0-4 img{
     margin-bottom: 20px;
@@ -235,13 +243,15 @@ ul, li{
     align-items: center;
     text-align: center;
     font-size: 18px;
-    font-family: Lato, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .p0-5 img{
     margin-bottom: 20px;
     width: 100px;
     height: 100px;}
-/*section 1*/
+/*//////////
+section 1
+/////////*/
 .subtitu{
     display: flex;
     justify-content: center;
@@ -274,7 +284,9 @@ ul, li{
     padding-top: 50px;
     padding-right:30px;
 }
-/*section 2*/
+/*/////////
+section 2
+////////*/
 .section2{
     padding-top: 50px;
 }
@@ -304,7 +316,9 @@ ul, li{
     flex-direction: column;
     align-items: center;
 }
-/*Cartas*/
+/*///////
+Cartas
+//////*/
 .section3{
     padding-top: 50px;
 }
@@ -368,21 +382,23 @@ ul, li{
 .section3-2{
     padding-bottom: 50px;
 }
-/*footer*/
+/*///////
+footer
+//////*/
 .pie{
-    height: 10rem;
+    height: 9rem;
     width: 100%;
     background-color:#264588ee;
 }
 .pietitu{
     text-align: center;
+    color:#264588ee ;
 }
-/*boton*/
 .r-social{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    height: 5rem;
+    height: 4.5rem;
     /*background-color: aliceblue;*/
 }
 .r-i{
@@ -402,11 +418,11 @@ ul, li{
     color: #ffffff;
 }
 .politicas{
-    height: 5rem;
+    height: 4.5rem;
     /*background-color: aquamarine;*/
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 .e-p{
     width: 150px;
