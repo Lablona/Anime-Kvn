@@ -19,8 +19,17 @@ opacity: 0.9;
     height: 4rem;
     width: 4rem;
 }
+.link{
+    color: #264588ee;
+}
+.link:hover{
+    color: #3f70db;
+}
+.barra{
+    border-radius: 0px;
+}
 .boton{
-    border-radius: none;
+    border-radius: 0px;
     color: #3460BF;
     border: solid 1px #3460BF;
     transition: all 0.2s 0.1s;

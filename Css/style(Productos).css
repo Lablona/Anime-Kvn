@@ -1,7 +1,61 @@
 *{padding: 0;
     margin: 0;
     box-sizing: border-box;}
-
+    @font-face {
+        font-family: Montserrat Alternates;
+        src: url(../font/Montserrat_Alternates/MontserratAlternates-MediumItalic.ttf);}
+/*barra de navegacion*/
+.nave{
+position:sticky;
+top: 0px;
+z-index: 1;
+width: 100%;
+opacity: 0.9;
+}
+.contenido-nave{
+    width: 70%;
+}
+.logo{
+    height: 4rem;
+    width: 4rem;
+}
+.link{
+    color: #264588ee;
+}
+.link:hover{
+    color: #3f70db;
+}
+.barra{
+    border-radius: 0px;
+}
+.boton{
+    border-radius: 0px;
+    color: #3460BF;
+    border: solid 1px #3460BF;
+    transition: all 0.2s 0.1s;
+}
+.boton:hover{
+    background-color: #3460BF;
+    border: solid 1px #3460BF;
+}
+/*Contenido*/
+body{
+    background-color: #3460BF;
+}
+.cuerpo{
+    background-color: #ffffffa1;
+    padding-bottom: 0.5rem;
+}
+h1{
+    font-size: 3.5rem;
+    color:#264588ee;
+    font-family: Montserrat Alternates;
+}
+.titu{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 .cuerpo{
     background-color: rgba(214, 214, 214, 0.815);
 }
@@ -13,17 +67,103 @@ h1{
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
-
-.boton1{
-    text-decoration: none;
-    color:rgb(0, 0, 0);
+/*Carta*/
+h2{
+    font-family: Montserrat Alternates;
+    color:#264588ee;
 }
-.enlace1{
-    width: 6rem;
-    height: 3rem;
-    margin-top: 0.5rem;
+.carta-p{
+    margin: 1rem;
+    padding: 0px;
+    transition: all 0.2s 0.1s;
+}
+.carta-p:hover{
+    transform: scale(1.10);
+}
+.titu-p{
     display: flex;
     justify-content: center;
+}
+/*Publicidad*/
+.publicidad{
+    justify-content: center;
+    margin: 1rem 1.5rem 0.5rem 1.5rem;
+}
+.remi{
+    padding: 0px;
+    border: none;
+}
+.remi h6, h5{
+    color: rgb(255, 255, 255);
+}
+.off{
+    margin-top: 3rem;
+    padding: 0px;
+    border: none;
+    transition: all 0.2s 0.1s;
+}
+.off:hover{
+    transform: scale(1.10);
+}
+.off h5, h6{
+    color:black;
+}
+.off div{
+    position: absolute;
+    top: 9rem;
+}
+/*Footer*/
+.pie{
+    height: 9rem;
+    width: 100%;
+    background-color:#264588ee;
+}
+.pietitu{
+    text-align: center;
+}
+/*boton*/
+.r-social{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 4.5rem;
+    /*background-color: aliceblue;*/
+}
+.r-i{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    border: 4px solid #000000;
+    margin-top: 1.8rem;
+    width: 5rem;
+    height: 4rem;
+}
+.r-i img{
+    height: 2rem;
+    width: 2.5rem;
+}
+.r-i p{
+    color: #ffffff;
+}
+.politicas{
+    height: 4.5rem;
+    /*background-color: aquamarine;*/
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+}
+.e-p{
+    width: 150px;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    text-decoration: none;
+    color: white
+}
+.e-p:hover{
+    color: #ffffff;
+    text-decoration:underline
 }

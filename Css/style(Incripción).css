@@ -23,43 +23,40 @@
     height: 130px;
     width: 130px;
 }
+/*registro*/
 h1{
     font-size: 3.5rem;
+    color:#264588ee;
+    font-family: Montserrat Alternates;
+}
+h2{
+    color:#264588ee;
+    font-family: Montserrat Alternates;
 }
 .titu{
     text-align: center;
     padding-bottom: 2rem;
 } 
-
-
-.boton1{
+a{
     text-decoration: none;
-    color:rgb(0, 0, 0);
-}
-.enlace1{
-    position: absolute;
-    right: 2rem;
-    top: 2rem;
-    width: 6rem;
-    height: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 4px solid #000000;
 }
 .registro{
     width: 630px;
     display: flex;
     flex-direction: column;
 }
+.barra{
+    border-radius: 0px;
+}
 .cuadro2{
+    border-radius: 0px;
     margin-top: 1rem;
 }
 .check{
     padding-top: 0.8rem;
 }
 .boton2{
-    text-decoration: none;
+    border-radius: 0px;
     text-align: center;
     display: flex;
     justify-content: center;
